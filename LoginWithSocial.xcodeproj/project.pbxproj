@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E410DA1E0D31C6003A6B7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E410D91E0D31C6003A6B7F /* AppDelegate.swift */; };
+		26E410DC1E0D31C6003A6B7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E410DB1E0D31C6003A6B7F /* ViewController.swift */; };
+		26E410DF1E0D31C6003A6B7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E410DD1E0D31C6003A6B7F /* Main.storyboard */; };
+		26E410E11E0D31C6003A6B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E410E01E0D31C6003A6B7F /* Assets.xcassets */; };
+		26E410E41E0D31C6003A6B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E410E21E0D31C6003A6B7F /* LaunchScreen.storyboard */; };
+		26F798701E0D35DB002CDEE2 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F7986F1E0D35DB002CDEE2 /* DetailVC.swift */; };
+		26F798721E0D39D3002CDEE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26F798711E0D39D3002CDEE2 /* GoogleService-Info.plist */; };
+		355304F6740CE6A9C3BBD909 /* Pods_LoginWithSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372C7584F31580A028283C86 /* Pods_LoginWithSocial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26E410D61E0D31C5003A6B7F /* LoginWithSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginWithSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E410D91E0D31C6003A6B7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26E410DB1E0D31C6003A6B7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26E410DE1E0D31C6003A6B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26E410E01E0D31C6003A6B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26E410E31E0D31C6003A6B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26E410E51E0D31C6003A6B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F7986F1E0D35DB002CDEE2 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		26F798711E0D39D3002CDEE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26F798731E0D3A08002CDEE2 /* LoginWithSocial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginWithSocial-Bridging-Header.h"; sourceTree = "<group>"; };
+		26F798761E0D3B08002CDEE2 /* LoginWithSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginWithSocial.entitlements; sourceTree = "<group>"; };
+		372C7584F31580A028283C86 /* Pods_LoginWithSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginWithSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E826F1BD699083B11E629B01 /* Pods-LoginWithSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginWithSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginWithSocial/Pods-LoginWithSocial.release.xcconfig"; sourceTree = "<group>"; };
+		EE5986AFC4A7FE1693707E57 /* Pods-LoginWithSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginWithSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginWithSocial/Pods-LoginWithSocial.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E410D31E0D31C4003A6B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355304F6740CE6A9C3BBD909 /* Pods_LoginWithSocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E410CD1E0D31C3003A6B7F = {
+			isa = PBXGroup;
+			children = (
+				26F798711E0D39D3002CDEE2 /* GoogleService-Info.plist */,
+				26E410D81E0D31C6003A6B7F /* LoginWithSocial */,
+				26E410D71E0D31C5003A6B7F /* Products */,
+				350B53902CB73509B9B6446F /* Pods */,
+				DB2E92D3405DFBE8101B5BA7 /* Frameworks */,
+				26F798731E0D3A08002CDEE2 /* LoginWithSocial-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		26E410D71E0D31C5003A6B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26E410D61E0D31C5003A6B7F /* LoginWithSocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E410D81E0D31C6003A6B7F /* LoginWithSocial */ = {
+			isa = PBXGroup;
+			children = (
+				26F798761E0D3B08002CDEE2 /* LoginWithSocial.entitlements */,
+				26E410D91E0D31C6003A6B7F /* AppDelegate.swift */,
+				26E410DB1E0D31C6003A6B7F /* ViewController.swift */,
+				26E410DD1E0D31C6003A6B7F /* Main.storyboard */,
+				26E410E01E0D31C6003A6B7F /* Assets.xcassets */,
+				26E410E21E0D31C6003A6B7F /* LaunchScreen.storyboard */,
+				26E410E51E0D31C6003A6B7F /* Info.plist */,
+				26F7986F1E0D35DB002CDEE2 /* DetailVC.swift */,
+			);
+			path = LoginWithSocial;
+			sourceTree = "<group>";
+		};
+		350B53902CB73509B9B6446F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE5986AFC4A7FE1693707E57 /* Pods-LoginWithSocial.debug.xcconfig */,
+				E826F1BD699083B11E629B01 /* Pods-LoginWithSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB2E92D3405DFBE8101B5BA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372C7584F31580A028283C86 /* Pods_LoginWithSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26E410D51E0D31C4003A6B7F /* LoginWithSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E410E81E0D31C6003A6B7F /* Build configuration list for PBXNativeTarget "LoginWithSocial" */;
+			buildPhases = (
+				E6272C916962B3EACC741985 /* [CP] Check Pods Manifest.lock */,
+				26E410D21E0D31C4003A6B7F /* Sources */,
+				26E410D31E0D31C4003A6B7F /* Frameworks */,
+				26E410D41E0D31C4003A6B7F /* Resources */,
+				87A04BC69D9CB1C10D04C89E /* [CP] Embed Pods Frameworks */,
+				4FE8236F6255C5C2903DDBA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginWithSocial;
+			productName = LoginWithSocial;
+			productReference = 26E410D61E0D31C5003A6B7F /* LoginWithSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E410CE1E0D31C3003A6B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Stars Developer";
+				TargetAttributes = {
+					26E410D51E0D31C4003A6B7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 54946U5A42;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 26E410D11E0D31C3003A6B7F /* Build configuration list for PBXProject "LoginWithSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26E410CD1E0D31C3003A6B7F;
+			productRefGroup = 26E410D71E0D31C5003A6B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E410D51E0D31C4003A6B7F /* LoginWithSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E410D41E0D31C4003A6B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E410E41E0D31C6003A6B7F /* LaunchScreen.storyboard in Resources */,
+				26F798721E0D39D3002CDEE2 /* GoogleService-Info.plist in Resources */,
+				26E410E11E0D31C6003A6B7F /* Assets.xcassets in Resources */,
+				26E410DF1E0D31C6003A6B7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FE8236F6255C5C2903DDBA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginWithSocial/Pods-LoginWithSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A04BC69D9CB1C10D04C89E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginWithSocial/Pods-LoginWithSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6272C916962B3EACC741985 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E410D21E0D31C4003A6B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E410DC1E0D31C6003A6B7F /* ViewController.swift in Sources */,
+				26E410DA1E0D31C6003A6B7F /* AppDelegate.swift in Sources */,
+				26F798701E0D35DB002CDEE2 /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26E410DD1E0D31C6003A6B7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E410DE1E0D31C6003A6B7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26E410E21E0D31C6003A6B7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E410E31E0D31C6003A6B7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26E410E61E0D31C6003A6B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26E410E71E0D31C6003A6B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26E410E91E0D31C6003A6B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5986AFC4A7FE1693707E57 /* Pods-LoginWithSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoginWithSocial/LoginWithSocial.entitlements;
+				DEVELOPMENT_TEAM = 54946U5A42;
+				INFOPLIST_FILE = LoginWithSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starsdeveloper.LoginWithSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginWithSocial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		26E410EA1E0D31C6003A6B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E826F1BD699083B11E629B01 /* Pods-LoginWithSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoginWithSocial/LoginWithSocial.entitlements;
+				DEVELOPMENT_TEAM = 54946U5A42;
+				INFOPLIST_FILE = LoginWithSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.starsdeveloper.LoginWithSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginWithSocial-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E410D11E0D31C3003A6B7F /* Build configuration list for PBXProject "LoginWithSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E410E61E0D31C6003A6B7F /* Debug */,
+				26E410E71E0D31C6003A6B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E410E81E0D31C6003A6B7F /* Build configuration list for PBXNativeTarget "LoginWithSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E410E91E0D31C6003A6B7F /* Debug */,
+				26E410EA1E0D31C6003A6B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26E410CE1E0D31C3003A6B7F /* Project object */;
+}
